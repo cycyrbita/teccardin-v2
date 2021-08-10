@@ -1,65 +1,41 @@
 /* stylelint-disable */
 
 @font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-Light.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-Light.woff") format("woff");
-	font-style: normal;
-	font-weight: 200;
-}
-
-@font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-LightItalic.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-LightItalic.woff") format("woff");
-	font-style: italic;
-	font-weight: 200;
-}
-
-@font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-Book.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-Book.woff") format("woff");
-	font-style: normal;
-	font-weight: 300;
-}
-
-@font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-Regular.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-Regular.woff") format("woff");
+	font-family: 'Nunito';
+	src: url("../fonts/Nunito/Nunito-Regular.woff2") format("woff2"),
+		url("../fonts/Nunito/Nunito-Regular.woff") format("woff");
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-Regular.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-Regular.woff") format("woff");
+	font-family: 'Nunito';
+	src: url("../fonts/Nunito/Nunito-SemiBold.woff2") format("woff2"),
+		url("../fonts/Nunito/Nunito-SemiBold.woff") format("woff");
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 @font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-Bold.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-Bold.woff") format("woff");
+	font-family: 'Nunito';
+	src: url("../fonts/Nunito/Nunito-Bold.woff2") format("woff2"),
+		url("../fonts/Nunito/Nunito-Bold.woff") format("woff");
 	font-style: normal;
 	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-ExtraBoldItalic.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-ExtraBoldItalic.woff") format("woff");
-	font-style: italic;
+	font-family: 'Nunito';
+	src: url("../fonts/Nunito/Nunito-ExtraBold.woff2") format("woff2"),
+		url("../fonts/Nunito/Nunito-ExtraBold.woff") format("woff");
+	font-style: normal;
 	font-weight: 800;
 }
 
 @font-face {
-	font-family: 'HeadingPro';
-	src: url("../fonts/HeadingPro/HeadingPro-Heavy.woff2") format("woff2"),
-		url("../fonts/HeadingPro/HeadingPro-Heavy.woff") format("woff");
-	font-style: norm;
-	font-weight: 900;
+	font-family: 'Heading-Pro';
+	src: url("../fonts/Heading-Pro/HeadingProTrial-Heavy.woff2") format("woff2"),
+		url("../fonts/Heading-Pro/HeadingProTrial-Heavy.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
 }
