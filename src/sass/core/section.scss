@@ -4,4 +4,9 @@
     padding-bottom: 60px;
     background-color: #fff;
     background-repeat: no-repeat;
+
+    &_face {
+        background-image: url("../media/section/face.png");
+        background-position: center top;
+    }
 }

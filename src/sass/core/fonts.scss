@@ -39,3 +39,11 @@
 	font-style: normal;
 	font-weight: 500;
 }
+
+@font-face {
+	font-family: 'Heading-Pro';
+	src: url("../fonts/Heading-Pro/HeadingProTrial-Book.woff2") format("woff2"),
+		url("../fonts/Heading-Pro/HeadingProTrial-Book.woff") format("woff");
+	font-style: normal;
+	font-weight: 350;
+}
