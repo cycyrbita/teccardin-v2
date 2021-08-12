@@ -15,9 +15,20 @@
 
     &_where {
         padding-top: 240px;
+        padding-bottom: 155px;
         margin-top: -180px;
         background-image: url("../media/section/where.jpg");
         background-position: center top;
+    }
+
+    &_list {
+        position: relative;
+        z-index: 1;
+        margin-top: -155px;
+        padding-top: 215px;
+        background-image: url("../media/section/list.png");
+        background-position: center top;
+        background-color: transparent;
     }
 }
 
@@ -25,6 +36,14 @@
     .section {
         &_face {
             background-image: url("../media/section/face-1280.jpg");
+        }
+
+        &_where {
+            padding-top: 160px;
+        }
+
+        &_list {
+            margin-top: -180px;
         }
     }
 }
@@ -39,6 +58,11 @@
             margin-top: 0;
             background-image: url("../media/section/where-768.jpg");
             background-position: center bottom;
+        }
+
+        &_list {
+            margin-top: -100px;
+            padding-top: 130px;
         }
     }
 
