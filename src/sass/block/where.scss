@@ -1,0 +1,61 @@
+
+.where {
+    width: 50%;
+    margin-left: auto;
+}
+
+.where__title {
+    margin-bottom: 30px;
+    font-size: 68px;
+    color: #2b2b2b;
+    font-family: "Heading-Pro", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+
+    mark {
+        color: #d65973;
+    }
+}
+
+.where__description {
+    max-width: 580px;
+
+    p {
+        color: #313131;
+
+        &:first-child {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        &:last-child {
+            font-size: 22px;
+
+            mark {
+                font-weight: 700;
+                color: #d65973;
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .where__title {
+        margin-bottom: 20px;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .where {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .where__title {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+}

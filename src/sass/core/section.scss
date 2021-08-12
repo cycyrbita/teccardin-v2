@@ -6,7 +6,17 @@
     background-repeat: no-repeat;
 
     &_face {
+        position: relative;
+        z-index: 1;
         background-image: url("../media/section/face.png");
+        background-position: center top;
+        background-color: transparent;
+    }
+
+    &_where {
+        padding-top: 240px;
+        margin-top: -180px;
+        background-image: url("../media/section/where.jpg");
         background-position: center top;
     }
 }
@@ -23,6 +33,13 @@
     .section {
         padding-top: 30px;
         padding-bottom: 30px;
+
+        &_where {
+            padding-bottom: 300px;
+            margin-top: 0;
+            background-image: url("../media/section/where-768.jpg");
+            background-position: center bottom;
+        }
     }
 
     .face__product {
