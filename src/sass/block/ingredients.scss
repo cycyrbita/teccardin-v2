@@ -1,0 +1,149 @@
+
+.ingredients {
+    position: relative;
+}
+
+.ingredients__title {
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: "Heading-Pro", sans-serif;
+
+    span {
+        display: block;
+    }
+}
+
+.ingredients__product {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ingredients__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -112px;
+}
+
+.ingredients__item {
+    position: relative;
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 50px;
+    padding-left: 110px;
+
+    &:nth-child(2n) {
+        padding-left: 0;
+        padding-right: 110px;
+        text-align: right;
+
+        .ingredients__media {
+            left: auto;
+            right: 0;
+        }
+
+        .ingredients__description {
+            margin-left: auto;
+        }
+
+        .ingredients__name {
+            margin-left: auto;
+        }
+    }
+}
+
+.ingredients__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 93px;
+    height: 93px;
+    background-color: #d65973;
+    overflow: hidden;
+}
+
+.ingredients__name {
+    max-width: 320px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #d65973;
+}
+
+.ingredients__description {
+    font-size: 19px;
+    max-width: 320px;
+}
+
+@media (max-width: 1280px) {
+    .ingredients__title {
+        margin-bottom: 30px;
+    }
+
+    .ingredients__product {
+        position: static;
+        transform: translateX(0);
+
+        img {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 300px;
+        }
+    }
+
+    .ingredients__list {
+        margin-top: 30px;
+    }
+
+    .ingredients__item {
+        width: calc(50% - 15px);
+        padding-left: 0;
+        padding-top: 110px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        &:nth-child(2n) {
+            padding-right: 0;
+            text-align: center;
+
+            .ingredients__media {
+                left: 50%;
+                right: auto;
+            }
+        }
+    }
+
+    .ingredients__media {
+        left: 50%;
+        margin-left: -42px;
+    }
+
+    .ingredients__name {
+        max-width: 100%;
+    }
+
+    .ingredients__description {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ingredients__list {
+        display: block;
+    }
+
+    .ingredients__item {
+        width: 100%;
+    }
+
+    .ingredients__title {
+        font-size: 48px;
+    }
+}
