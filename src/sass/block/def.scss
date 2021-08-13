@@ -72,6 +72,13 @@
     }
 }
 
+.def__info {
+    text-align: center;
+    font-size: 18px;
+    color: #828282;
+    margin-top: 15px;
+}
+
 @media (max-width: 1280px) {
     .def__body {
         flex-wrap: wrap;
