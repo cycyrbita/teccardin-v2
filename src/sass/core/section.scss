@@ -46,6 +46,14 @@
     &_def {
         padding-top: 0;
     }
+
+    &_help {
+        margin-top: -50px;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-image: url("../media/section/help.jpg");
+        background-position: center;
+    }
 }
 
 .section__info {
@@ -103,6 +111,10 @@
             padding-bottom: 0;
             margin-top: -150px;
             background-image: url("../media/section/product-1280.jpg");
+        }
+
+        &_help {
+            background-image: url("../media/section/help-1280.jpg");
         }
     }
 
@@ -164,6 +176,11 @@
             padding-bottom: 0;
             margin-top: -100px;
             background-image: url("../media/section/product-480.jpg");
+        }
+
+        &_help {
+            margin-top: 0;
+            background-image: url("../media/section/help-480.jpg");background-position: center top;
         }
     }
 
