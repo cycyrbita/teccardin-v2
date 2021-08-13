@@ -40,6 +40,11 @@
         margin-top: -100px;
         background-image: url("../media/section/product.jpg");
         background-position: top center;
+        padding-bottom: 0;
+    }
+
+    &_def {
+        padding-top: 0;
     }
 }
 
