@@ -1,0 +1,40 @@
+
+.professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 827px;
+    width: 50%;
+    margin-left: auto;
+}
+
+.professional__title {
+    margin-bottom: 15px;
+    font-family: "Heading-Pro", sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.prfessional__description p {
+    color: #fff;
+    font-size: 22px;
+
+    & + p {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .professional {
+        width: 100%;
+        min-height: 891px;
+    }
+}
+
+@media (max-width: 768px) {
+    .professional {
+        min-height: 0;
+    }
+}

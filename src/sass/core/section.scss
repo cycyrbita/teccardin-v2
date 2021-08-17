@@ -59,6 +59,13 @@
         background-image: url("../media/section/ingredients.jpg");
         background-position: top center;
     }
+
+    &_professional {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-image: url("../media/section/professional.jpg");
+        background-position: top center;
+    }
 }
 
 .section__info {
@@ -121,6 +128,10 @@
         &_help {
             background-image: url("../media/section/help-1280.jpg");
         }
+
+        &_professional {
+            background-image: url("../media/section/professional-1280.jpg");
+        }
     }
 
     .section__info {
@@ -160,6 +171,12 @@
             margin-top: -70px;
             background-image: url("../media/section/product-768.jpg");
         }
+
+        &_professional {
+            background-image: url("../media/section/professional-768.jpg");
+            background-position: center bottom;
+            background-color: #506a9a;
+        }
     }
 
     .face__product {
@@ -186,6 +203,11 @@
         &_help {
             margin-top: 0;
             background-image: url("../media/section/help-480.jpg");background-position: center top;
+        }
+
+        &_professional {
+            background-image: url("../media/section/professional-480.jpg");background-position: center bottom;
+            padding-bottom: 330px;
         }
     }
 
