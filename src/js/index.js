@@ -11,8 +11,7 @@ $(document).ready(function () {
             320 : {
                 items: 1,
                 margin: 40,
-                stagePadding: 20,
-                nav: true
+                stagePadding: 20
             },
 
             768 : {
