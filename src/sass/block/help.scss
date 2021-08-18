@@ -7,7 +7,6 @@
 }
 
 .help__title {
-    margin-top: 80px;
     margin-bottom: 30px;
     font-family: "Heading-Pro", sans-serif;
     font-size: 56px;
@@ -29,19 +28,21 @@
 }
 
 @media (max-width: 1280px) {
+    .help {
+        min-height: 600px;
+    }
+
     .help__title {
-        margin-top: 50px;
         font-size: 45px;
     }
 }
 
 @media (max-width: 768px) {
     .help {
-        min-height: 740px;
+        min-height: 530px;
     }
 
     .help__title {
-        margin-top: 0;
         font-size: 30px;
     }
 }
@@ -50,6 +51,6 @@
     .help {
         display: block;
         padding-top: 300px;
-        min-height: 900px;
+        min-height: 0;
     }
 }
